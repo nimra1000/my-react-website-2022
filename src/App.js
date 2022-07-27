@@ -4,7 +4,7 @@ import {Routes, Route} from "react-router-dom";
 import NavBar from "./components/NavBar"
 import ParisPage from "./pages/Paris.js"
 import MilanPage from "./pages/Milan.js"
-
+import LondonPage from "./pages/London.js"
 
 
 
@@ -18,6 +18,7 @@ function App() {
               <Route path="/" element={ <Homepage/> } />
               <Route path="/paris" element={ <ParisPage/> } />
               <Route path="/milan" element={ <MilanPage/> } />
+              <Route path="/london" element={ <LondonPage/> } />
           </Routes>
       </div>
   );

@@ -1,15 +1,14 @@
-import NavBar from "../components/NavBar";
-import Card from "../components/Card";
-import Carousel from "../components/Carousel/Carousel";
-import Container from "../components/Container";
+import CardRow from "../organisms/CardRow";
+import Carousel from '../molecules/Carousel/Carousel';
+import TextContainerRow from '../organisms/TextContainerRow';
 
 function Homepage() {
     return (
-        <div className="Homepage">
-            <Carousel/>
-            <Container/>
-            <Card/>
-        </div>
+      <div className='Homepage'>
+        <Carousel />
+        <TextContainerRow />
+        <CardRow />
+      </div>
     );
 }
 

@@ -1,7 +1,7 @@
 
 import Homepage from "./pages/Homepage";
 import {Routes, Route} from "react-router-dom";
-import NavBar from "./components/NavBar"
+import NavBar from './molecules/NavBar';
 import ParisPage from "./pages/Paris.js"
 import MilanPage from "./pages/Milan.js"
 import LondonPage from "./pages/London.js"

@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
-import London from "../assets/pfwLogo.jpeg"
-
+import Logo from "../atoms/NavbarLogo"
+import NavbarLogoName from "../atoms/NavbarLogoName"
 
 function NavBar() {
     return (
@@ -11,15 +11,9 @@ function NavBar() {
                 <Container class="container-fluid">
                     <nav className="navbar navbar-default">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="/">
-                                <img src={London} width="30" height="30" alt=""
-                                     loading="lazy"/>
-                            </a>
-                            <div className="navbar-header">
-                                <a className="navbar-brand" href="#">Fashion-Avenue</a>
-                            </div>
+                            <Logo/>
+                            <NavbarLogoName/>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <Link class="nav-link active" to="/">Homepage</Link>
                                     <Link class="nav-link active" to="/milan">Milan</Link>

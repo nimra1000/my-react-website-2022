@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
-import Logo from "../atoms/NavbarLogo"
-import NavbarLogoName from "../atoms/NavbarLogoName"
+import Logo from "../atoms/Logo"
+import NavbarLogoName from "../atoms/Header"
 
 function NavBar() {
     return (
